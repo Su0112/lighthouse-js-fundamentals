@@ -10,3 +10,23 @@ if (cold) {
 }
 
 console.log("Now you're ready to go outside!");
+
+// Logical operators
+// if statements become even more powerful when we understand how to use logical operators in conjunction with them. JavaScript's logical operators are:
+
+// && - logical AND
+// || - logical OR
+// ! - logical NOT
+
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+// another example
+const temperature = 45;
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
