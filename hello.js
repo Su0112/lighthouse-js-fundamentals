@@ -3,3 +3,11 @@ const sayHello = function () {
 };
 
 sayHello();
+
+const sayHelloo = function (name) {
+  console.log("Hello, " + name);
+};
+
+sayHelloo("Caliban");
+sayHelloo("Miranda");
+sayHelloo("Ferdinand");
