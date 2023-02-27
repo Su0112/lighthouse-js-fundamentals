@@ -16,7 +16,10 @@ const chooseStations = function (stations) {
     //console.log(capacity);
     const venueType = station[2];
     //console.log(venueType);
-    if (capacity >= 20 && (venueType === "school" || "community center")) {
+    if (
+      capacity >= 20 &&
+      (venueType === "school" || venueType === "community centre")
+    ) {
       //console.log(station);
       goodStations.push(station[0]);
     }
